@@ -1,47 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+        <!--Meta Information-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>Spencer Alan Watson</title>
+        
+        <!--CSS-->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+        <style>
+            .content-body{
+                margin:10px 10%   
+            }
+        </style>
+        <!--Above-the-fold Javascript-->
         <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-47527027-2']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
-        
-            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-        
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-47527027-2']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+            
+                ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
         </script>
 	</head>
+    
 	<body>
+        <!--Header-->
         <div class="navbar navbar-default">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Spencer Alan Watson</a>
+                <a class="navbar-brand" href="/">Spencer Alan Watson</a>
             </div>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="/">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
             </ul>
         </div>
         <div class="page-header text-center">
             <h1>A Website about me</h1>
         </div>
-        <a href="https://plus.google.com/u/0/118254562723566175110?rel=author">Google</a>
-        <div class="alert alert-warning">
-            <p>
-                <strong>
-                    Note! 
-                </strong>
-                This website is still in development!
-            </p>
+        
+        <!--Body-->
+        <div class="content-body">
+            <div class="alert alert-warning">
+                <p>
+                    <strong>
+                        Note! 
+                    </strong>
+                    This website is still in development!
+                </p>
+            </div>
+            
+            <a href="https://plus.google.com/u/0/118254562723566175110?rel=author">Google</a>
+            <div itemscope itemtype="http://data-vocabulary.org/Person">
+                <p>My name is <span itemprop="name">Spencer Alan Watson</span>, and this is my home page.</p>
+                <p>I primarily work as a <span itemprop="role">Web Developer</span>, but I am always learning more.</p>
+            </div>
         </div>
+        
         <!--Javascript-->
         <script src="js/jquery-1.11.0.js"></script>
         <script src="js/bootstrap.js"></script>
         
 	</body>
+    
 </html>
