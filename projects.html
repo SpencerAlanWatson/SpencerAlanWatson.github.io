@@ -1,46 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Projects</title>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-    </head>
-    <body>
-        <div class="navbar navbar-default">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/">Spencer Alan Watson</a>
-            </div>
-            <ul class="nav navbar-nav">
-                <li><a href="/">Home</a></li>
-                <li class="active"><a href="projects.html">Projects</a></li>
-            </ul>
-        </div>
-        <div class="page-header text-center">
-            <h1>My Projects</h1>
-        </div>
-        <div class="alert alert-warning">
-            <p>
-                <strong>
-                    Note! 
-                </strong>
-                This website is still in development!
-            </p>
-        </div>
-        <h3>Finished Projects</h3>
-        <ul>
-            <li><a href="projects/LabWriteUp/WriteUp.htm">Exercise and Cellular Respiration Lab Write Up Webpage</a></li>
-        </ul>
-        <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-47527027-2']);
-            _gaq.push(['_trackPageview']);
-            (function() {
-                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
-            
-                ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-            
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            })();
-        </script>
-    </body>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Projects - Spencer Alan Watson</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<style>
+		.project-list {
+			list-style-type: none;
+			font-size: 1.5em;
+		}
+		
+		.project-list > li {
+			margin: 10px 0;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="navbar navbar-default">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/">Spencer Alan Watson</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li><a href="/">Home</a>
+			</li>
+			<li class="active"><a href="projects.html">Projects</a>
+			</li>
+		</ul>
+	</div>
+	<div class="page-header text-center">
+		<h1>My Projects </br><small>Last updated: May 14<sup>th</sup>, 2015</small></h1>
+	</div>
+	<div class="container">
+		<div class="alert alert-warning">
+			<p>
+				<strong>
+            		Note! 
+            	</strong> This website is still in development!
+			</p>
+		</div>
+		<ul class="project-list">
+			<li>
+				<span class="label label-info">Maintaining</span>
+				<span class="label label-primary">May, 2015</span>
+				<a href="perspective-canvas/client/index.htm" class="project-title">Perspective Canvas</a>
+				<a href="https://github.com/SpencerAlanWatson/perspective-canvas/" class="badge">Source</a>
+
+			</li>
+			<li>
+				<span class="label label-warning">Shelved</span>
+				<span class="label label-primary">December, 2014</span>
+				<a href="js-game/">JS Game</a>
+				<a href="https://github.com/SpencerAlanWatson/js-game/" class="badge">Source</a>
+			</li>
+			<li>
+				<span class="label label-warning">Shelved</span>
+				<span class="label label-primary">October, 2014</span>
+				<a href="Gravity-Simulator-Angular/" class="project-title">3D Gravity Simulator with Angular</a>
+				<a href="https://github.com/SpencerAlanWatson/gravity-simulator-angular/" class="badge">Source</a>
+			</li>
+			<li>
+				<span class="label label-warning">Shelved</span>
+				<span class="label label-primary">September, 2014</span>
+				<a href="Gravity-Simulator/" class="project-title">2D Gravity Simulator</a>
+				<a href="https://github.com/SpencerAlanWatson/gravity-simulator/" class="badge">Source</a>
+			</li>
+			<li>
+				<span class="label label-success">Finished</span>
+				<span class="label label-primary">January, 2014</span>
+				<a href="projects/LabWriteUp/WriteUp.htm" class="project-title">Exercise and Cellular Respiration Lab Write Up</a>
+				<a href="https://github.com/SpencerAlanWatson/LabWriteUp/" class="badge">Source</a>
+			</li>
+			
+
+		</ul>
+	</div>
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-47527027-2']);
+		_gaq.push(['_trackPageview']);
+		(function () {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+
+			ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</body>
+
 </html>
