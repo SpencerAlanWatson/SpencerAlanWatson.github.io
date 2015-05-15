@@ -30,7 +30,7 @@
 		</ul>
 	</div>
 	<div class="page-header text-center">
-		<h1>My Projects </br><small>Last updated: May 14<sup>th</sup>, 2015</small></h1>
+		<h1>My Projects </br><small>Last updated: May 15<sup>th</sup>, 2015</small></h1>
 	</div>
 	<div class="container">
 		<div class="alert alert-warning">
@@ -46,13 +46,25 @@
 				<span class="label label-primary">May, 2015</span>
 				<a href="perspective-canvas/client/index.htm" class="project-title">Perspective Canvas</a>
 				<a href="https://github.com/SpencerAlanWatson/perspective-canvas/" class="badge">Source</a>
-
+			</li>
+			<li>
+				<span class="label label-success">Finished</span>
+				<span class="label label-primary">February, 2015</span>
+				<a href="game-of-life/" class="project-title" data-toggle="tooltip" data-placement="top" title="This project was a learning experience with ES6 and only works with Firefox of at least version 37">Conway's Game of Life with ES6 for Firefox</a>
+				<a href="https://github.com/SpencerAlanWatson/game-of-life/" class="badge">Source</a>
 			</li>
 			<li>
 				<span class="label label-warning">Shelved</span>
 				<span class="label label-primary">December, 2014</span>
-				<a href="js-game/">JS Game</a>
+				<a href="js-game/" class="project-title">JS Game</a>
 				<a href="https://github.com/SpencerAlanWatson/js-game/" class="badge">Source</a>
+			</li>
+			<li>
+				<span class="label label-danger">Cancled</span>
+				<span class="label label-primary">October, 2014</span>
+				<a href="hot-that-hurts/" class="project-title" data-toggle="tooltip" data-placement="top" title="I only did the code for this.">Hot, that hurts!</a>
+				<a href="https://github.com/SpencerAlanWatson/hot-that-hurts/" class="badge">Source</a>
+
 			</li>
 			<li>
 				<span class="label label-warning">Shelved</span>
@@ -68,14 +80,21 @@
 			</li>
 			<li>
 				<span class="label label-success">Finished</span>
+				<span class="label label-primary">September, 2014</span>
+				<a href="http://itfp-saw.rhcloud.com/" class="project-title" data-toggle="tooltip" data-placement="top" title="The server might need to start up.  Just reload a few minutes later">ITFP Website Redesign</a>
+			</li>
+			<li>
+				<span class="label label-success">Finished</span>
 				<span class="label label-primary">January, 2014</span>
 				<a href="projects/LabWriteUp/WriteUp.htm" class="project-title">Exercise and Cellular Respiration Lab Write Up</a>
 				<a href="https://github.com/SpencerAlanWatson/LabWriteUp/" class="badge">Source</a>
 			</li>
-			
+
 
 		</ul>
 	</div>
+	<script src="js/jquery-1.11.0.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-47527027-2']);
@@ -90,6 +109,11 @@
 			var s = document.getElementsByTagName('script')[0];
 			s.parentNode.insertBefore(ga, s);
 		})();
+	</script>
+	<script>
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip()
+		})
 	</script>
 </body>
 
